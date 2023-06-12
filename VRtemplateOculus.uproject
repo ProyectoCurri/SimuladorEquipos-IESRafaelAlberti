@@ -57,6 +57,13 @@
 				"HoloLens",
 				"Android"
 			]
+		},
+		{
+			"Name": "OnlineSubsystemGooglePlay",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Android"
+			]
 		}
 	],
 	"TargetPlatforms": [
