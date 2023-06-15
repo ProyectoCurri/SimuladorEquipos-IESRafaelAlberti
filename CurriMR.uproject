@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{C1539515-4D96-3C70-C68F-78A2B2A0B221}",
+	"EngineAssociation": "{79448D38-4D15-A522-9C2F-C68F715824E6}",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -13,8 +13,17 @@
 			"Enabled": true
 		},
 		{
-			"Name": "OpenXR",
+			"Name": "OculusVR",
 			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "OpenXR",
+			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Win32",
 				"Win64",
@@ -31,43 +40,11 @@
 				"Win64",
 				"Linux"
 			]
-		},
-		{
-			"Name": "MultiUserClient",
-			"Enabled": true
-		},
-		{
-			"Name": "OpenXREyeTracker",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"Win32",
-				"Win64",
-				"Linux",
-				"HoloLens",
-				"Android"
-			]
-		},
-		{
-			"Name": "OpenXRHandTracking",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"Win32",
-				"Win64",
-				"Linux",
-				"HoloLens",
-				"Android"
-			]
-		},
-		{
-			"Name": "OnlineSubsystemGooglePlay",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"Android"
-			]
 		}
 	],
 	"TargetPlatforms": [
 		"Android",
+		"IOS",
 		"Linux",
 		"Mac",
 		"PS4",
