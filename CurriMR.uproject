@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.27",
+	"EngineAssociation": "{79448D38-4D15-A522-9C2F-C68F715824E6}",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -40,14 +40,11 @@
 				"Win64",
 				"Linux"
 			]
-		},
-		{
-			"Name": "MultiUserClient",
-			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
 		"Android",
+		"IOS",
 		"Linux",
 		"Mac",
 		"PS4",
